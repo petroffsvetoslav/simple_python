@@ -20,7 +20,7 @@ def user():
  if name in collum:
        print("OK")
  else:
-       print("Invalid")
+       quit()
 def password():
   creds = input("Please type in a password: ")
   if creds in parola:
